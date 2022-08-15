@@ -1,0 +1,84 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-image: none;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-image: url(./img/Fundo02.jpg);
+    background-attachment: fixed;
+    background-position: 100% 30%;
+    background-color: black;
+    background-repeat: no-repeat;
+}
+header{
+    
+    height: 210px;
+    text-align: center;
+    
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    margin: 20px;
+    
+   
+}
+
+.titulo{  
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 1348px;
+    font-size: 100px ;
+    font-weight: 120;
+    text-align: center;
+    color: white;
+    font-family: 'Rubik Dirt', cursive;
+
+}
+.subtitulo{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 674px;
+
+}
+
+.intro{
+    margin-top: 5px;
+    margin-bottom: 10px;
+    font-size: 32px ;
+    width: 674px;
+    font-family: 'Rubik Dirt', cursive;
+}
+
+.container{
+    margin: 50px;
+    font-size: 25px;
+
+}
+
+.titulos{
+   
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+
+.jogos{
+    
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100px;
+    color: white;
+    font-size: 20px;
+}
