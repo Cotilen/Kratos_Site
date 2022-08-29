@@ -14,6 +14,7 @@ body{
     background-position: 100% 30%;
     background-color: black;
     background-repeat: no-repeat;
+    
 }
 header{
     
@@ -34,8 +35,8 @@ main{
 .titulo{  
     margin-top: 30px;
     margin-bottom: 30px;
-    width: 1348px;
-    font-size: 100px ;
+    width: 100vw;
+    font-size: 6.25rem ;
     font-weight: 120;
     text-align: center;
     color: white;
@@ -45,7 +46,7 @@ main{
 .subtitulo{
     margin-top: 10px;
     margin-bottom: 10px;
-    width: 674px;
+    width: 40vw;
     font-style: italic;
 
 }
@@ -53,14 +54,14 @@ main{
 .intro{
     margin-top: 5px;
     margin-bottom: 10px;
-    font-size: 32px ;
-    width: 674px;
+    font-size: 2rem ;
+    width: 40vw;
     font-family: 'Rubik Dirt', cursive;
 }
 
 .container{
     margin: 50px;
-    font-size: 25px;
+    font-size: 1.4rem;
 
 }
 
